@@ -44,11 +44,7 @@ export const AppContextProvider: React.FC<AppContextProviderProps> = ({
     fetchUsers();
   }, []);
 
-  const contextValue = {
-    users,
-    isLoading,
-    error,
-  };
+  const contextValue = { ...value, users, isLoading, error };
   return (
     <AppContext.Provider value={contextValue}> {children} </AppContext.Provider>
   );
