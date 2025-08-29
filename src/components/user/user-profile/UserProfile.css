@@ -1,0 +1,17 @@
+.form-field {
+  margin: 5px;
+}
+.form-input {
+  height: 30px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.form-button {
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  box-shadow: 1px 1px 10px rgba(139, 139, 139, 0.6);
+  border: 1px solid #cbc7c7;
+  border-radius: 3px;
+}

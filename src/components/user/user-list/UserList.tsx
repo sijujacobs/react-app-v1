@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { AppContext } from "../../context/AppContext";
-import Spinner from "../spinner/Spinner";
-import { AppContextType } from "../../models";
+import { AppContext } from "../../../context/AppContext";
+import Spinner from "../../spinner/Spinner";
+import { AppContextType } from "../../../models";
 import "./UserList.css";
 
 const UserList: React.FC = () => {
